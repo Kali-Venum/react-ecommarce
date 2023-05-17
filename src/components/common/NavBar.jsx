@@ -34,6 +34,16 @@ function NavBar() {
             Contact
           </NavLink>
         </nav>
+        <NavLink to="/register">
+          <button class="inline-flex text-white items-center border-0 py-1 px-3 bg-[#6A64F1] focus:outline-none rounded text-base mt-4 md:mt-0 font-bold">
+            Register
+          </button>
+        </NavLink>
+        <NavLink to="/login">
+          <button class="inline-flex text-white items-center border-0 ml-2 py-1 px-3 bg-[#6A64F1] focus:outline-none rounded text-base mt-4 md:mt-0 font-bold">
+            Login
+          </button>
+        </NavLink>
       </div>
     </header>
   );
